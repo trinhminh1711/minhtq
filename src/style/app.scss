@@ -1,0 +1,16 @@
+$info : black;
+$owl-image-path: "~owl.carousel/src/img/";
+.loading {
+    background: black url('https://media1.giphy.com/media/T72ZcOeC5zW4E/giphy.gif?cid=790b7611fa2b508d81d6b4f5dcacd6718e9d75e439ec9de5&rid=giphy.gif') ;
+    -webkit-transition: background-color 0;
+    transition: background-color 0;
+    opacity: 0;
+    position: absolute;
+    background-position: center;
+    background-repeat: repeat-y;
+    -webkit-transition: opacity 0;
+    transition: opacity 0;
+    max-height: 200px;
+}
+
+@import "~bootstrap/scss/bootstrap";
